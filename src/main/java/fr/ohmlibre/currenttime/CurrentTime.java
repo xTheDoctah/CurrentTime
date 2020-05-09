@@ -10,7 +10,7 @@ public final class CurrentTime extends JavaPlugin {
 		this.saveDefaultConfig();
 
 		if (this.getConfig().getBoolean("Enabled")) {
-			Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new SettingRightTime(this), 200, 20);
+			Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new SettingRightTime(), 200, 20);
 		}
 	}
 }
