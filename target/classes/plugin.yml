@@ -1,0 +1,6 @@
+name: CurrentTime
+version: 1.0.0
+main: fr.ohmlibre.currenttime.CurrentTime
+api-version: 1.13
+authors: [OhmLibre]
+description: Change your server's time to real world time.
